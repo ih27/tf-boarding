@@ -73,13 +73,13 @@ Thanks to [spaceship.airforce](https://spaceship.airforce) (oh well, I really ta
 
 Assuming you already have a [Heroku](https://www.heroku.com/) account follow those steps:
 
-* [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://www.heroku.com/deploy?template=https://github.com/fastlane/boarding)
+* [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://www.heroku.com/deploy?template=https://github.com/ih27/tf-boarding)
 * Enter your iTunes Connect credentials and the bundle identifier of your app. This will all be stored on your own Heroku instance as environment variables
 * Click on `View` once the setup is complete and start sharing the URL
 
 Assuming you already have an [Azure](https://www.azure.com/) account follow those steps:
 
-* [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/fastlane/boarding)
+* [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/ih27/tf-boarding)
 * Enter your iTunes Connect credentials and the bundle identifier of your app. This will all be stored on your own Heroku instance as environment variables
 * It can take up to 5 minutes until everything is loaded.
 
@@ -137,10 +137,10 @@ Using [spaceship.airforce](https://spaceship.airforce) it is possible to manage 
 
 This repository is a simple Rails application with most code in these files:
 
-* [invite_controller.rb](https://github.com/fastlane/boarding/blob/master/app/controllers/invite_controller.rb)
-* [invite/index.html.erb](https://github.com/fastlane/boarding/blob/master/app/views/invite/index.html.erb)
+* [invite_controller.rb](https://github.com/ih27/tf-boarding/blob/master/app/controllers/invite_controller.rb)
+* [invite/index.html.erb](https://github.com/ih27/tf-boarding/blob/master/app/views/invite/index.html.erb)
 
-![BoardingOverview](https://raw.githubusercontent.com/fastlane/boarding/master/assets/BoardingOverview.png)
+![BoardingOverview](https://raw.githubusercontent.com/ih27/tf-boarding/master/assets/BoardingOverview.png)
 
 More information about this automation process can be found [here](https://krausefx.com/blog/letting-computers-do-the-hard-work).
 
@@ -175,7 +175,7 @@ From time to time there will be updates to `boarding`. There are 2 ways to updat
 ### Using Heroku website
 
 * Delete your application on [heroku.com](https://www.heroku.com/)
-* [Create a new boarding application](https://www.heroku.com/deploy?template=https://github.com/fastlane/boarding)
+* [Create a new boarding application](https://www.heroku.com/deploy?template=https://github.com/ih27/tf-boarding)
 * Enter your user credentials again
 
 ### Using Azure website
